@@ -22,6 +22,6 @@ let package = Package(
             dependencies: []),
         .target(
             name: "Compress",
-            dependencies: ["ReCompress", "Progress"]),
+            dependencies: ["ReCompress"]),
     ]
 )
